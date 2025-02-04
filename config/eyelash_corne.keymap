@@ -91,8 +91,8 @@
             display-name = "Fn";
             bindings = <
 &studio_unlock   &kp F1      &kp F2      &kp F3       &kp F4  &kp F5                                &mmv MOVE_UP                     &kp F6       &kp F7  &kp F8       &kp F9      &kp F10          &kp F11
-&trans           &trans      &bt BT_NXT  &bt BT_NXT   &none   &none                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &none   &none        &none       &kp PRINTSCREEN  &kp F12
-&rgb_ug RGB_OFF  &sys_reset  &trans      &bootloader  &trans  &none   &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans  &bootloader  &sys_reset  &none            &kp PAUSE_BREAK
+&trans           &trans      &bt BT_PRV  &bt BT_NXT   &none   &none                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &none   &none        &none       &kp PRINTSCREEN  &kp F12
+&rgb_ug RGB_OFF  &sys_reset  &trans      &bootloader  &trans  &none   &kp C_MUTE                    &mmv MOVE_DOWN                   &bt BT_CLR   &trans  &bootloader  &sys_reset  &none            &kp PAUSE_BREAK
                                          &trans       &trans  &trans                                                                 &trans       &trans  &trans
             >;
 
